@@ -1,4 +1,4 @@
-# # Search Feature Guide
+# Search Feature Guide
 
 This document provides an overview of how to use the search and advanced filtering capabilities in MyApp. These features are designed to help teams locate tasks quickly and efficiently.
 
@@ -40,6 +40,5 @@ Retrieves a list of tasks with search and filter parameters applied.
 **Example Request:**
 
 To search for tasks containing the keyword "login" that are "in_progress" and have a "high" priority:
-
 ```http
 GET /api/v1/tasks?q=login&status=in_progress&priority=high
